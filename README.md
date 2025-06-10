@@ -1,4 +1,4 @@
-#here is not code it is description that i used code in my repositories in jarvis.py
+#here is the features of this project 
 # 🤖 JARVIS Voice Assistant using Python
 
 This project is a simple AI voice assistant, similar to J.A.R.V.I.S from Iron Man, built using Python. It listens to your voice commands and performs tasks like playing YouTube videos, opening apps and websites, telling jokes, reading Wikipedia summaries, and speaking responses using Google TTS.
