@@ -1,3 +1,4 @@
+#here's the full code
 # python-jarvis-project
 #Python AI based jarvis project
 import speech_recognition as sr
