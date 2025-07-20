@@ -1,27 +1,33 @@
-#here is the features of this project 
-# 🤖 JARVIS Voice Assistant using Python
+🌟 Features
+🎤 Voice Recognition using Google Speech API
 
-This project is a simple AI voice assistant, similar to J.A.R.V.I.S from Iron Man, built using Python. It listens to your voice commands and performs tasks like playing YouTube videos, opening apps and websites, telling jokes, reading Wikipedia summaries, and speaking responses using Google TTS.
+🗣️ Text-to-Speech with gTTS and playsound
 
----
+🔎 Smart Commands:
 
-## 🛠 Features
+play <song> – Plays a song on YouTube
 
-- 🎙️ Voice command recognition using Google Speech API  
-- 🔊 Voice output using Google Text-to-Speech (gTTS)  
-- 📺 Play YouTube videos using voice (e.g. “play despacito”)  
-- 🌐 Web browsing and searching  
-- 📖 Wikipedia search and summary  
-- ⏰ Get the current time  
-- 📝 Open apps like Notepad  
-- 😂 Tells programming jokes  
-- ♻️ Loops continuously until stopped
+time – Tells the current time
 
----
+who is <person> – Fetches summary from Wikipedia
 
-## 📦 Required Libraries
+tell me a joke – Responds with a joke using pyjokes
 
-Install all required Python packages using:
+open youtube/google/chatgpt – Opens websites in the browser
 
-```bash
-pip install -r requirements.txt
+stop or exit – Gracefully stops the assistant
+
+🌐 Flask Web Interface:
+
+Dark-themed UI with glowing mic icon animation
+
+Real-time log updates of commands and Jarvis' responses
+
+Shows assistant status and command history
+
+⚙️ Runs voice thread in the background using Python threading
+
+🖥️ Technologies Used
+Python (Flask, gTTS, SpeechRecognition, PyWhatKit, PyJokes, Wikipedia)
+
+HTML5 + CSS3 (Dark UI theme)
