@@ -1,0 +1,80 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #00ffe7;
+  font-size: 2.5rem;
+}
+
+.status {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.status span {
+  color: #0f0;
+  font-weight: bold;
+}
+
+.mic-container {
+  margin: 40px auto 20px;
+  width: 120px;
+  height: 120px;
+  background-color: #1e1e1e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px #00ffe7;
+  animation: pulse 2s infinite;
+}
+
+.mic-icon {
+  font-size: 3rem;
+  color: #00ffe7;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px #00ffe7;
+  }
+  50% {
+    box-shadow: 0 0 30px #00ffe7;
+  }
+  100% {
+    box-shadow: 0 0 10px #00ffe7;
+  }
+}
+
+.log {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #1f1f1f;
+  border: 1px solid #00ffe7;
+  border-radius: 10px;
+  padding: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.log-entry {
+  padding: 5px;
+  border-bottom: 1px solid #333;
+  color: #ddd;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #777;
+}
