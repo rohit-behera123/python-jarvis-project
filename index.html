@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jarvis - Dark GUI</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>🤖 Jarvis Assistant</h1>
+  <div class="status">Status: <span>Listening...</span></div>
+  <div class="mic-container">
+    <div class="mic-icon">🎤</div>
+  </div>
+  <div class="log">
+    {% for line in logs %}
+      <div class="log-entry">{{ line }}</div>
+    {% endfor %}
+  </div>
+  <div class="footer">Made with ❤️ by Rohit</div>
+</body>
+</html>
